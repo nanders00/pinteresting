@@ -21,7 +21,6 @@ module Pinteresting
     # config.i18n.default_locale = :de
 
     # Required for Heroku
-    config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
     config.assets.initialize_on_precompile = true
   end
 end
