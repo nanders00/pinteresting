@@ -22,5 +22,6 @@ module Pinteresting
 
     # Required for Heroku
     config.assets.initialize_on_precompile = false
+    config.assets.precompile << /\.(?:svg|eot|woff|ttf)\z/
   end
 end
